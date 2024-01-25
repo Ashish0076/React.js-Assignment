@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  background-color: #FAFAFB;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AvertaStd-Regular:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}

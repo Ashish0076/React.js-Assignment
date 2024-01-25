@@ -1,0 +1,32 @@
+
+.menu-bar {
+  height: 100vh;
+  width: 15%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#logo {
+  margin-bottom: 15%;
+  margin-left: 20px;
+}
+
+.menu-item svg {
+  width: 30px;
+  margin-right: 10%;
+  margin-bottom: 10%
+}
+
+.menu-item:hover {
+  background-color: #FAFAFB;
+}
